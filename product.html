@@ -969,7 +969,7 @@
                 <h4>United Kingdom</h4>
               </div>
             </div>
-<!-- links -->
+            <!-- links -->
             <div id="foot-box" class="top-footer-lefts">
               <h1> <a href="#">Quick Links</a> </h1>
               <div class="quick-links">
@@ -1011,7 +1011,7 @@
 
 
 
-  <!-- JavaScript -->
+  <!-- Scripts -->
   <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -1061,106 +1061,58 @@
          /* Product Display*/
        $('.l1').on("click", function(event){
          event.preventDefault();
-       $('#product1').fadeIn(800).css('display' , 'flex');
-         $('#product2').hide();
-         $('#product3').hide();
-         $('#product4').hide();
-         $('#product5').hide();
-         $('#product6').hide();
-         $('#product7').hide();
-         $('#product8').hide();
+         $('.product-display').children('.product').hide();
          $('.product-intro').hide();
+         $('#product1').fadeIn(800).css('display' , 'flex');
        });
      
        $('.l2').on("click", function(event){
          event.preventDefault();
-     $('#product2').fadeIn(800).css('display' , 'flex');
-         $('#product1').hide();
-         $('#product3').hide();
-         $('#product4').hide();
-         $('#product5').hide();
-         $('#product6').hide();
-         $('#product7').hide();
-         $('#product8').hide();
-         $('.product-intro').hide();   
+         $('.product-display').children('.product').hide();
+         $('.product-intro').hide();
+     $('#product2').fadeIn(800).css('display' , 'flex'); 
        });
      
        $('.l3').on("click", function(event){
          event.preventDefault();
-     $('#product3').fadeIn(800).css('display' , 'flex');
-         $('#product2').hide();
-         $('#product1').hide();
-         $('#product4').hide();
-         $('#product5').hide();
-         $('#product6').hide();
-         $('#product7').hide();
-         $('#product8').hide();
-         $('.product-intro').hide();    
+         $('.product-display').children('.product').hide();
+         $('.product-intro').hide();
+     $('#product3').fadeIn(800).css('display' , 'flex');  
        });
      
        $('.l4').on("click", function(event){
          event.preventDefault();
-       $('#product4').fadeIn(800).css('display' , 'flex');
-         $('#product1').hide();
-         $('#product2').hide();
-         $('#product3').hide();
-         $('#product5').hide();
-         $('#product6').hide();
-         $('#product7').hide();
-         $('#product8').hide();
+         $('.product-display').children('.product').hide();
          $('.product-intro').hide();
+       $('#product4').fadeIn(800).css('display' , 'flex');
        });
      
        $('.l5').on("click", function(event){
          event.preventDefault();
-     $('#product5').fadeIn(800).css('display' , 'flex');
-         $('#product2').hide();
-         $('#product1').hide();
-         $('#product3').hide();
-         $('#product4').hide();
-         $('#product6').hide();
-         $('#product7').hide();
-         $('#product8').hide();
+         $('.product-display').children('.product').hide();
          $('.product-intro').hide();
+     $('#product5').fadeIn(800).css('display' , 'flex');
        });
      
        $('.l6').on("click", function(event){
          event.preventDefault();
-     $('#product6').fadeIn(800).css('display' , 'flex');
-         $('#product2').hide();
-         $('#product1').hide();
-         $('#product3').hide();
-         $('#product4').hide();
-         $('#product5').hide();
-         $('#product7').hide();
-         $('#product8').hide();
-        $('.product-intro').hide();    
+         $('.product-display').children('.product').hide();
+         $('.product-intro').hide();
+     $('#product6').fadeIn(800).css('display' , 'flex');  
        });
      
        $('.l7').on("click", function(event){
          event.preventDefault();
+         $('.product-display').children('.product').hide();
+         $('.product-intro').hide();
      $('#product7').fadeIn(800).css('display' , 'flex');
-         $('#product2').hide();
-         $('#product3').hide();
-         $('#product1').hide();
-         $('#product4').hide();
-         $('#product5').hide();
-         $('#product6').hide();
-         $('#product8').hide();
-         $('.product-intro').hide(); 
        });
      
        $('.l8').on("click", function(event){
          event.preventDefault();
-     $('#product8').fadeIn(800).css('display' , 'flex');
-         $('#product2').hide();
-         $('#product1').hide();
-         $('#product3').hide();
-         $('#product4').hide();
-         $('#product5').hide();
-         $('#product6').hide();
-         $('#product7').hide();
+         $('.product-display').children('.product').hide();
          $('.product-intro').hide();
+     $('#product8').fadeIn(800).css('display' , 'flex');
        });
 
      
