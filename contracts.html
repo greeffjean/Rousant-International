@@ -329,21 +329,37 @@
     });
 
 
-    /* Mobile Nav Animation*/
+   
+    /* Mobile Menu Display Animation */
     $(document).ready(function () {
-      $('.menu-icon').click(function () {
-        $('.mobile-menu-container').slideToggle(1000)
-        $('.menu-icon').toggleClass('active')
-        $('.mobile-nav').toggleClass('mobile-drop-nav')
-      })
-    })
+   /* body scroll fix - dropdown nav */
+      var body_scroll_fix = {height: "100vh", overflow: "hidden"};
 
+      $('.menu-icon').on('click', function () {
+        $('.mobile-menu-container').slideToggle(1000);
+        $('.menu-icon').toggleClass('active');
+        $('.mobile-nav').toggleClass('mobile-drop-nav');
+        /* body scroll fix - dropdown nav */
+        if( body_scroll_fix != false){
+          $('body').css(body_scroll_fix)
+            body_scroll_fix = false;
+        }
+        else {
+          $('body').css({minHeight: "100vh", overflow: "scroll"})
+          body_scroll_fix = {height: "100vh", overflow: "hidden"};
+        }
+  
+      });
+    });
+/* nav item */
     $('#product-link').on('click', function (event) {
       $('#product-list').slideToggle();
     });
+    /* nav item */
     $('#turnkey-link').on('click', function (event) {
       $('#turnkey-list').slideToggle();
     });
+    /* nav item */
     $('#contact-link').on('click', function (event) {
       $('#contact-list').slideToggle();
     });

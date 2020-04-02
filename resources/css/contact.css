@@ -18,6 +18,11 @@ h1{
     font-family: 'Assistant';
 }
 
+.body {
+  min-height: 100vh;
+  overflow: scroll;
+}
+
 
 /* Loader */
 .cs-loader-wrapper{
@@ -327,7 +332,6 @@ font-weight: 300;
   width: 100%;
   background: white;
   z-index: 15;
-
 }
 
 .mobile-menu{
