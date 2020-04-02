@@ -5,10 +5,6 @@ html h1{
   padding: 0;
 
 }
-body{
-
-}
-
 
 p{
   font-family: 'Montserrat';
@@ -22,10 +18,8 @@ h1{
     font-family: 'Assistant';
 }
 
-/* Loader */
-/* Loader */
-/* Loader */
 
+/* Loader */
 .cs-loader-wrapper{
 width: 100%;
 height: 100%;
@@ -136,16 +130,7 @@ z-index: 100;
 }
 
 
-/* Loader */
-/* Loader */
-/* Loader */
-/* Loader */
-
-
-
-
-/* Universal */
-
+/* Universal DOM Classes */
 .para-tint{
   width: 100%;
   height: 100vh;
@@ -174,7 +159,6 @@ z-index: 100;
 }
 
 @media only screen and (max-width: 600px){
-  
   .parallax-top{
 height: 100vh;
     width: 100%;
@@ -182,8 +166,6 @@ height: 100vh;
 }
 
 /* Navigation */
-
-
 .navigation{
   width: 98%;
   display: flex;
@@ -202,7 +184,6 @@ z-index: 30;
   justify-content: space-between;
 }
 
-
 .menu {
   display: flex;
   align-items: flex-end;
@@ -213,7 +194,6 @@ z-index: 30;
   position: relative;
   transition: 500ms;
 }
-
 
 #decor{
   position: relative;
@@ -233,14 +213,12 @@ z-index: 30;
   padding: 0;
 }
 
-
 .menu a{
 transition: 1000ms;
 font-size: 2.5rem;
 color: white;
 font-family: 'Assistant';
 font-weight: 300;
-
 }
 
 .logo {
@@ -256,9 +234,6 @@ font-weight: 300;
 
 
 /* Navigation mobile */
-/* Navigation mobile */
-/* Navigation mobile */
-
 .mobile-nav{
   width: 100%;
   position: fixed;
@@ -285,7 +260,6 @@ font-weight: 300;
   height: 90px;
   width: 40%;
   padding: 8px;
-
 }
 
 .mobile-nav p{
@@ -297,7 +271,6 @@ font-weight: 300;
 
 .mobile-nav p:hover{
   transform: rotateZ(90deg);
-
 }
 
 .mobile-menu-container {
@@ -310,7 +283,6 @@ font-weight: 300;
   width: 100%;
   background: white;
   z-index: 1;
-
 }
 
 .mobile-menu{
@@ -331,7 +303,6 @@ font-weight: 300;
   width: 100%;
   display: flex;
   justify-content: center;
-
 }
 
 
@@ -362,20 +333,10 @@ font-weight: 300;
 .hidden-list div{
 display: flex;
 justify-content: center;
-
 }
 
 
-
-
-
-/* Navigation mobile */
-/* Navigation mobile */
-/* Navigation mobile */
-
 /* Navigation-Mobile Hovers */
-/* Navigation-Mobile Hovers */
-
 .menu-icon{
     padding:1px;
 margin: 1rem;
@@ -389,7 +350,6 @@ margin: 1rem;
   margin-bottom: 6px;
   box-shadow: 0 1px 2px grey;
   transition: 500ms;
-
 }
 
 .menu-icon.active span:nth-child(2){
@@ -406,14 +366,8 @@ margin: 1rem;
 
 
 /* Navigation-Mobile Hovers */
-/* Navigation-Mobile Hovers */
 
 /* Navigation Hovers */
-/* Navigation Hovers */
-/* Navigation Hovers */
-
-
-
 .item:hover #decor {
   left: 0;  background-color: white;
 }
@@ -422,15 +376,6 @@ margin: 1rem;
   text-decoration: none;
   color: white;
 }
-
-/* Navigation Hovers */
-/* Navigation Hovers */
-/* Navigation Hovers */
-/* Navigation Hovers */
-
-/* Navigation MediaQ */
-/* Navigation MediaQ */
-/* Navigation MediaQ */
 
 @media only screen and (max-width: 1550px){
   .nav-content{
@@ -449,6 +394,7 @@ width: 90%;
   align-items: flex-end;
   }
 }
+
 @media only screen and (max-width: 800px){
   .mobile-menu a{
     font-size: 3rem;
@@ -470,34 +416,13 @@ width: 90%;
   }
   }
 
-
   @media only screen and (max-height: 500px){
     .mobile-menu{
       padding-top: 20px;
     }
      }
 
-
-
-
-
-
-
-
-/* Navigation MediaQ */
-/* Navigation MediaQ */
-/* Navigation MediaQ */
-
-
 /* Popnav */
-/* Popnav */
-/* Popnav */
-/* Popnav */
-/* Popnav */
-/* Popnav */
-/* Popnav */
-/* Popnav */
-
 .popnav{
   width: 100%;
   background-color: white;
@@ -514,14 +439,12 @@ z-index: 30;
 .popnav .menu .item a{
   color: #9e9e9e;
   transition: 1000ms;
-
 }
 
 .popnav .menu{
 align-items: flex-end;
 margin-bottom: 1rem;
 }
-
 
 .popnav #decor{
   position: relative;
@@ -538,18 +461,7 @@ margin-bottom: 1rem;
   padding: 5px;
 }
 
-
-
 /* Banner */
-/* Banner */
-/* Banner */
-/* Banner */
-/* Banner */
-/* Banner */
-/* Banner */
-/* Banner */
-
-
 .banner{
   min-height: 100vh;
   width: 100%;
@@ -562,8 +474,6 @@ margin-bottom: 1rem;
   padding-left: 2rem;
       background: #00000030;
 }
-
-
 
 .africa{
   width: 100%;
@@ -596,7 +506,6 @@ margin-bottom: 1rem;
   font-size: 3rem;
     text-align: center;
             text-shadow: 1px 1px #585757;
-
 }
 
 
@@ -606,7 +515,6 @@ margin-bottom: 1rem;
   font-size: 8rem;
     font-weight: 300;
     text-shadow: 2px 2px #5d503e;
-
 }
 
 .banner .africa{
@@ -627,8 +535,6 @@ border: 1px solid lightgrey;
   font-weight: 300;
     margin: 1rem;
         width: 200px;
-    
-
 }
 
 #left-button{
@@ -639,53 +545,39 @@ border: 1px solid lightgrey;
   border: 1px solid #d6a766c7;
   margin: 1rem;
       width: 200px;
- 
-
 }
 
 #left-button:hover{
   background-color: transparent;
   border: 1px solid white;
-  width: 195px;
-  
+  width: 195px; 
 }
 
 #right-button:hover{
   background-color: #86adbd;
   border: 1px solid #86adbd;
-  width: 195px;
-     
+  width: 195px;   
 }
 
 
-
 /* Banner Media Queries*/
-/* Banner Media Queries*/
-/* Banner Media Queries*/
-
 @media only screen and (max-width: 1400px){
-
   #africa{
     font-size: 6rem;
     letter-spacing: 3px;
-
   }
 
   #illuminate{
     font-size: 6rem;
-
   }
 
   .banner p{
     font-size: 2.5rem;
     padding: 10px;
   }
-
-
 }
 
 @media only screen and (max-width: 1000px){
-
 .banner{
   width: 100%;
   padding:0;
@@ -701,11 +593,9 @@ border: 1px solid lightgrey;
 #left-button{
 width: 170px;
 }
-
 }
 
 @media only screen and (max-width: 450px){
-
   .banner{
     width: 100%;
     padding:0;
@@ -736,8 +626,7 @@ width: 170px;
 .button {
   margin-bottom: 15rem;
 }
-  
-  }
+   }
 
   @media only screen and (max-height: 600px){
     #illuminate {
@@ -764,15 +653,7 @@ width: 170px;
   }
 
 
-
-
-
-/* Banner Media Queries*/
-/* Banner Media Queries*/
-/* Banner Media Queries*/
-
 /* Contract Catalogue*/
-
 #contact{
   background: #fafafae6;
 }
@@ -788,7 +669,6 @@ background-size: cover;
 .contract-tint{
 width: 100%;
 height: 100%;
-
 }
 
 .contract-header{
@@ -798,7 +678,6 @@ display: flex;
 flex-direction: column;
 align-items: flex-end;
 padding-top: 140px;
-
 }
 
 .tag{
@@ -810,7 +689,6 @@ font-size: 2rem;
 .contract-heading{
 width: 90%;
   border-left: 5px solid #f9a940;
-
 }
 
 .contract-heading h1{
@@ -838,7 +716,6 @@ width: 90%;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-
 }
 
 .contract-menu div{
@@ -855,13 +732,11 @@ font-weight: normal;
 font-size: 2.5rem;
 letter-spacing: 2px;
 transition: .5s;
-
 }
 
 .contract-menu h3{
 margin: 2px;
 padding: 1px;
-
 }
 
 .contract-menu a:hover {
@@ -875,10 +750,6 @@ padding-bottom: 15rem;
 }
 
 /* Product Hover Effect*/
-/* Product Hover Effect*/
-/* Product Hover Effect*/
-
-
 .hovereffect-bottom{
 height: 2px;
 background-color: #f9a940;
@@ -888,40 +759,18 @@ bottom: -50px;
 transition: 300ms;
 }
 
-
 .contract-menu div:hover .hovereffect-bottom{
 bottom: 0;
 }
-/* Contract Hover Effect*/
-/* Contract Hover Effect*/
-/* Contract Hover Effect*/
-
 
 
 /* Contract-Media Queries */
-/* Contract-Media Queries */
-/* Contract-Media Queries */
-
 @media only screen and (max-width: 1000px){
 .tag{
   font-size: 1.5rem;
 }
 }
 
-
-
-
-
-
-/* Contract-Media Queries */
-/* Contract-Media Queries */
-/* Contract-Media Queries */
-
-
-/* Contract-Display */
-/* Contract-Display */
-/* Contract-Display */
-/* Contract-Display */
 /* Contract-Display */
 .top-tray{
 background-color: #6d8b9e;
@@ -934,66 +783,42 @@ font-size: 2rem;
 color: white;
 }
 
-
 /* Contract-Display */
-/* Contract-Display */
-/* Contract-Display */
-/* Contract-Display */
-/* Contract-Display */
-/* Contract-Display */
-
-
 
 .d2017{
-
 width: 100%;
 }
 .d2016{
 display: none;
-
 width: 100%;
 }
 .d2015{
 display: none;
-
 width: 100%;
 }
 .d2014{
 display: none;
-
 width: 100%;
 }
 .d2013{
 display: none;
-
 width: 100%;
 }
 .d2012{
 display: none;
-
 width: 100%;
 }
 .d2011{
 display: none;
-
 width: 100%;
 }
 .d2010{
 display: none;
-
 width: 100%;
 }
 
-/* Contract-Display */
-/* Contract-Display */
-/* Contract-Display */
-/* Contract-Display */
-
 
 /* Contract-Display Media Queries */
-/* Contract-Display Media Queries */
-/* Contract-Display Media Queries */
-
 @media only screen and (max-width: 550px){
 .top-tray th{
   font-size: 1.7rem;
@@ -1012,23 +837,11 @@ width: 100%;
 }
 }
 
-/* Contract-Display Media Queries */
-/* Contract-Display Media Queries */
-/* Contract-Display Media Queries */
-
-
-
-
 
 /* Footer */
-/* Footer */
-/* Footer */
-/* Footer */
-
 .top-footer-container{
   width: 100%;
 min-height: 60vh;
-
 }
 
 .top-footer-tint{
@@ -1036,7 +849,6 @@ min-height: 60vh;
   display: flex;
 align-items: center;
 min-height: 60vh;
-
 }
 
 .footer-logo{
@@ -1045,7 +857,6 @@ min-height: 60vh;
 
 .top-footer{
 width:80%;
-
 display: flex;
 justify-content: center;
 margin: 0 auto;
@@ -1105,13 +916,11 @@ height: 45px;
   margin-right: 2rem;
 }
 
-
 .quick-links{
   width: 100%;
   display: flex;
   border-top: 1px solid lightgrey;
   align-items: center;
-
   height: 65px;
 }
 
@@ -1119,13 +928,11 @@ height: 45px;
 padding: 0 3rem;
 display: flex;
 flex-direction: column;
-
 }
 
 #seemore-button{
   padding: 5px 10px;
   border: 1px solid lightgrey;
-
 }
 
 #seemore-container{
@@ -1142,8 +949,6 @@ color: lightgrey;
   border-top: 1px solid lightgrey;
 }
 
-
-
 .bottom-copywright{
   height: 90px;
   width: 100%;
@@ -1155,7 +960,6 @@ display: flex;
 align-items: center;
 justify-content: center;
 font-family: 'Assistant';
-
 }
 
 
@@ -1170,20 +974,8 @@ font-family: 'Assistant';
 }
 
 
-
-
-/* Footer */
-/* Footer */
-/* Footer */
-/* Footer */
-
-
 /* Media Queries Footer */
-/* Media Queries Footer */
-/* Media Queries Footer */
-
 @media only screen and (max-width: 1200px){
-
   .top-footer{
     width: 100%;
     justify-content: space-around;
@@ -1219,7 +1011,6 @@ font-size: 3rem;
 background-image: url('../pictures/main/contracts.jpg');
 background-size: cover;
 background-position: center;
-  
   }
 }
 
@@ -1233,9 +1024,3 @@ background-position: center;
       }
 }
 
-
-
-
-/* Media Queries Footer */
-/* Media Queries Footer */
-/* Media Queries Footer */

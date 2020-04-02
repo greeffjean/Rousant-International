@@ -7,10 +7,6 @@ html h1{
   padding: 0;
 
 }
-body {
-
-}
-
 
 p{
   font-family: 'Montserrat';
@@ -24,10 +20,8 @@ h1{
     font-family: 'Assistant';
 }
 
-/* Loader */
-/* Loader */
-/* Loader */
 
+/* Loader */
 .cs-loader-wrapper{
   width: 100%;
   height: 100%;
@@ -142,17 +136,9 @@ h1{
     -webkit-animation: lol 3s 500ms infinite ease-in-out;
     animation: lol 3s 500ms infinite ease-in-out;
   }
-  
-  
-  /* Loader */
-  /* Loader */
-  /* Loader */
-  /* Loader */
-  
 
 
-/* Universal */
-
+/* Universal DOM Classes */
 .para-tint{
   width: 100%;
   height: 100vh;
@@ -189,8 +175,6 @@ height: 100vh;
 }
 
 /* Navigation */
-
-
 .navigation{
   width: 98%;
   display: -webkit-box;
@@ -287,9 +271,6 @@ font-weight: 300;
 
 
 /* Navigation mobile */
-/* Navigation mobile */
-/* Navigation mobile */
-
 .mobile-nav{
   width: 100%;
   position: fixed;
@@ -420,16 +401,7 @@ display: flex;
 }
 
 
-
-
-
-/* Navigation mobile */
-/* Navigation mobile */
-/* Navigation mobile */
-
 /* Navigation-Mobile Hovers */
-/* Navigation-Mobile Hovers */
-
 .menu-icon{
     padding:1px;
 margin: 1rem;
@@ -465,15 +437,7 @@ margin: 1rem;
           transform: rotateY(180deg)rotateZ(-45deg)translate(7px, -7px);
 }
 
-
-/* Navigation-Mobile Hovers */
-/* Navigation-Mobile Hovers */
-
 /* Navigation Hovers */
-/* Navigation Hovers */
-/* Navigation Hovers */
-
-
 
 .item:hover #decor {
   left: 0;  background-color: white;
@@ -484,21 +448,12 @@ margin: 1rem;
   color: white;
 }
 
-/* Navigation Hovers */
-/* Navigation Hovers */
-/* Navigation Hovers */
-/* Navigation Hovers */
-
 /* Navigation MediaQ */
-/* Navigation MediaQ */
-/* Navigation MediaQ */
-
 @media only screen and (max-width: 1550px){
   .nav-content{
 width: 90%;
   }
 }
-
 @media only screen and (max-width: 1200px){
   .navigation{
   display: none;
@@ -544,26 +499,7 @@ width: 90%;
      }
 
 
-
-
-
-
-
-
-/* Navigation MediaQ */
-/* Navigation MediaQ */
-/* Navigation MediaQ */
-
-
 /* Popnav */
-/* Popnav */
-/* Popnav */
-/* Popnav */
-/* Popnav */
-/* Popnav */
-/* Popnav */
-/* Popnav */
-
 .popnav{
   width: 100%;
   background-color: white;
@@ -616,17 +552,7 @@ margin-bottom: 1rem;
 }
 
 
-
 /* Banner */
-/* Banner */
-/* Banner */
-/* Banner */
-/* Banner */
-/* Banner */
-/* Banner */
-/* Banner */
-
-
 .banner{
   min-height: 100vh;
   width: 100%;
@@ -758,12 +684,7 @@ border: 1px solid lightgrey;
      
 }
 
-
-
 /* Banner Media Queries*/
-/* Banner Media Queries*/
-/* Banner Media Queries*/
-
 @media only screen and (max-width: 1400px){
 
   #africa{
@@ -858,20 +779,7 @@ width: 170px;
 }
   }
 
-
-
-
-/* Banner Media Queries*/
-/* Banner Media Queries*/
-/* Banner Media Queries*/
-
-
 /* Product Container*/
-/* Product Container*/
-/* Product Container*/
-/* Product Container*/
-
-
 .product-container{
   width: 100%;
 background-color: #fafafae6;
@@ -1001,10 +909,6 @@ font-size: 2.5rem;
 }
 
 /* Product Hover Effect*/
-/* Product Hover Effect*/
-/* Product Hover Effect*/
-
-
 .hovereffect-top{
   height: 2px;
   background-color: #f9a940;
@@ -1036,16 +940,8 @@ right: -130%;
 .product-menu div:hover .hovereffect-bottom{
   left: 0;
 }
-/* Product Hover Effect*/
-/* Product Hover Effect*/
-/* Product Hover Effect*/
-
-
 
 /* Product-Menu Media Quries */
-/* Product-Menu Media Quries */
-/* Product-Menu Media Quries */
-
 @media only screen and (max-width: 1000px){
 .tag{
   font-size: 1.5rem;
@@ -1061,25 +957,7 @@ right: -130%;
   }
 }
 
-
-
-
-
-
-/* Product-Menu Media Quries */
-/* Product-Menu Media Quries */
-/* Product-Menu Media Quries */
-
-
-
 /* Product-Display */
-/* Product-Display */
-/* Product-Display */
-/* Product-Display */
-/* Product-Display */
-/* Product-Display */
-/* Product-Display */
-
 .product-display{
   width: 100%;
   display: -webkit-box;
@@ -1180,10 +1058,6 @@ right: -130%;
 .intro-cont:hover a {
   text-decoration: none;
 }
-
-
-
-
 
 .intro-img:hover {
   -webkit-transform: scale(1.1);
@@ -1358,15 +1232,7 @@ td{
   text-align: center;
 }
 
-
-
 /* Product-Catalogue */
-/* Product-Catalogue */
-/* Product-Catalogue */
-/* Product-Catalogue */
-/* Product-Catalogue */
-/* Product-Catalogue */
-
 #product1{
   display: none;
   }
@@ -1401,9 +1267,6 @@ display: none;
 }
 
 /* Product-Catalogue Media Queries */
-/* Product-Catalogue Media Queries */
-/* Product-Catalogue Media Queries */
-
 @media only screen and ( max-width: 1200px) {
   .intro-cont {
     height: 200px;
@@ -1457,18 +1320,7 @@ display: none;
 
 }
 
-
-
-
-
-/* Product-Catalogue Media Queries */
-/* Product-Catalogue Media Queries */
-/* Product-Catalogue Media Queries */
-
 /* Mobile Product Catalogue */
-/* Mobile Product Catalogue */
-/* Mobile Product Catalogue */
-
 .mobile-products {
   display: none;
 }
@@ -1548,8 +1400,6 @@ letter-spacing: 3px;
   width: 90%;
   height: 200px;
   margin: 0 auto;
-  
- 
 }
 
 .mobile-img a{
@@ -1597,15 +1447,7 @@ letter-spacing: 3px;
   }
 }
 
-
-/* Mobile Product Catalogue */
-/* Mobile Product Catalogue */
-/* Mobile Product Catalogue */
-
 /* Mobile Product Images */
-/* Mobile Product Images */
-/* Mobile Product Images */
-
 .img1{
   background-image: url('../pictures/secondry/Aerial Bundle.jpg');
   background-size: cover;
@@ -1662,15 +1504,6 @@ letter-spacing: 3px;
   background-position: center;
 }
 
-
-/* Mobile Product Images */
-/* Mobile Product Images */
-/* Mobile Product Images */
-
-
-/* Footer */
-/* Footer */
-/* Footer */
 /* Footer */
 
 .top-footer-container{
@@ -1855,19 +1688,8 @@ font-family: 'Assistant';
           align-items: center;
 }
 
-
-/* Footer */
-/* Footer */
-/* Footer */
-/* Footer */
-
-
 /* Media Queries Footer */
-/* Media Queries Footer */
-/* Media Queries Footer */
-
 @media only screen and (max-width: 1200px){
-
   .top-footer{
     width: 100%;
     -ms-flex-pack: distribute;
@@ -1926,10 +1748,3 @@ background-position: center;
     font-size: 2.2rem;
       }
 }
-
-
-
-
-/* Media Queries Footer */
-/* Media Queries Footer */
-/* Media Queries Footer */

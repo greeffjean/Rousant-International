@@ -1,13 +1,8 @@
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 
-/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
-
-
-
 html h1{
   margin: 0;
   padding: 0;
-
 }
 
 p{
@@ -22,10 +17,8 @@ h1{
     font-family: 'Assistant';
 }
 
-/* Loader */
-/* Loader */
-/* Loader */
 
+/* Loader */
 .cs-loader-wrapper{
 width: 100%;
 height: 100%;
@@ -142,16 +135,7 @@ z-index: 100;
 }
 
 
-/* Loader */
-/* Loader */
-/* Loader */
-/* Loader */
-
-
-
-
-/* Universal */
-
+/* Universal DOM Classes */
 .para-tint{
   width: 100%;
   min-height:100%;
@@ -180,8 +164,6 @@ z-index: 100;
 }
 
 /* Navigation */
-
-
 .navigation{
   width: 98%;
   display: -webkit-box;
@@ -278,9 +260,6 @@ font-weight: 300;
 
 
 /* Navigation mobile */
-/* Navigation mobile */
-/* Navigation mobile */
-
 .mobile-nav{
   width: 100%;
   position: fixed;
@@ -375,7 +354,6 @@ font-weight: 300;
 
 }
 
-
 .mobile-menu a{
   color: hsl(0, 0%, 72%);
   font-size: 3.5rem;
@@ -411,16 +389,7 @@ display: flex;
 }
 
 
-
-
-
-/* Navigation mobile */
-/* Navigation mobile */
-/* Navigation mobile */
-
 /* Navigation-Mobile Hovers */
-/* Navigation-Mobile Hovers */
-
 .menu-icon{
     padding:1px;
 margin: 1rem;
@@ -456,16 +425,7 @@ margin: 1rem;
           transform: rotateY(180deg)rotateZ(-45deg)translate(7px, -7px);
 }
 
-
-/* Navigation-Mobile Hovers */
-/* Navigation-Mobile Hovers */
-
 /* Navigation Hovers */
-/* Navigation Hovers */
-/* Navigation Hovers */
-
-
-
 .item:hover #decor {
   left: 0;  background-color: white;
 }
@@ -475,15 +435,7 @@ margin: 1rem;
   color: white;
 }
 
-/* Navigation Hovers */
-/* Navigation Hovers */
-/* Navigation Hovers */
-/* Navigation Hovers */
-
 /* Navigation MediaQ */
-/* Navigation MediaQ */
-/* Navigation MediaQ */
-
 @media only screen and (max-width: 1550px){
   .nav-content{
 width: 90%;
@@ -546,26 +498,7 @@ width: 90%;
      }
 
 
-
-
-
-
-
-
-/* Navigation MediaQ */
-/* Navigation MediaQ */
-/* Navigation MediaQ */
-
-
 /* Popnav */
-/* Popnav */
-/* Popnav */
-/* Popnav */
-/* Popnav */
-/* Popnav */
-/* Popnav */
-/* Popnav */
-
 .popnav{
   width: 100%;
   background-color: white;
@@ -617,18 +550,7 @@ margin-bottom: 1rem;
   padding: 5px;
 }
 
-
-
 /* Banner */
-/* Banner */
-/* Banner */
-/* Banner */
-/* Banner */
-/* Banner */
-/* Banner */
-/* Banner */
-
-
 .banner{
   min-height: 100vh;
   width: 60%;
@@ -761,12 +683,7 @@ border: 1px solid lightgrey;
     0 0 150px #00cccc;
 }
 
-
-
 /* Banner Media Queries*/
-/* Banner Media Queries*/
-/* Banner Media Queries*/
-
 @media only screen and (max-width: 1400px){
 
   #africa{
@@ -861,24 +778,7 @@ width: 170px;
 }
   }
 
-
-
-
-/* Banner Media Queries*/
-/* Banner Media Queries*/
-/* Banner Media Queries*/
-
-
-
 /* Products*/
-/* Products*/
-/* Products*/
-/* Products*/
-/* Products*/
-/* Products*/
-/* Products*/
-/* Products*/
-
 .grand-container{
 padding: 10rem 0;
     display: -webkit-box;
@@ -935,12 +835,7 @@ width: 100%;
 }
 
 /* Products Queries*/
-/* Products Queries*/
-/* Products Queries*/
-
-
 @media only screen and (max-width: 1400px){
-
   .second-left h1{
     color: black;
     font-size: 4rem;
@@ -953,12 +848,9 @@ width: 100%;
 }
 
 @media only screen and (max-width: 1000px){
-
-
   #tag{
     font-size: 1.4rem;
   }
-
 }
 
 @media only screen and (max-width: 850px){
@@ -976,7 +868,6 @@ width: 100%;
         -ms-flex-pack: center;
             justify-content: center;
 }
-
 }
 
 @media only screen and (max-height: 500px){
@@ -987,7 +878,6 @@ width: 100%;
 
 
 @media only screen and (max-width: 600px){
-
 .second-slide div {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1016,27 +906,13 @@ width: 100%;
   .about-heading-top h1{
     font-size: 3rem;
   }
-
 }
 
-/* Products Queries*/
-/* Products Queries*/
-/* Products Queries*/
-
 
 /* Carousel */
-/* Carousel */
-/* Carousel */
-/* Carousel */
-/* Carousel */
-
-/* Carousel */
-
-
 .your-class{
   margin: 0;
   padding: 0;
-
 }
 
 .your-class h1{
@@ -1117,21 +993,11 @@ display: flex;
   display: none;
 }
 
-
-
 /* Carousel Media Queries */
-/* Carousel Media Queries */
-/* Carousel Media Queries */
-
-
-
 @media only screen and (max-width: 1000px){
-
-
   #tag{
     font-size: 1.4rem;
   }
-
 }
 
 @media only screen and (max-width: 850px) {
@@ -1143,41 +1009,16 @@ display: flex;
   .standard-slider-button{
     display: none;
   }
-
-
-
 }
 
 @media only screen and (max-height: 650px){
-
-
   .your-class .slide-container{
-
     height: 250px;
-   
-    
     }
 
 }
 
-
-
-
-
-/* Carousel Media Queries */
-/* Carousel Media Queries */
-/* Carousel Media Queries */
-/* Carousel Media Queries */
-
-
 /* Product Backgrounds */
-/* Product Backgrounds */
-/* Product Backgrounds */
-/* Product Backgrounds */
-/* Product Backgrounds */
-/* Product Backgrounds */
-
-
 .one{
     background-image: url('../pictures/secondry/Aerial Bundle.jpg');
     background-size: cover;
@@ -1308,25 +1149,8 @@ display: flex;
     color: white;
 }
 
-/* Product Backgrounds */
-/* Product Backgrounds */
-/* Product Backgrounds */
-/* Product Backgrounds */
-/* Product Backgrounds */
-/* Product Backgrounds */
-/* Product Backgrounds */
-
 
 /* About Rousant */
-/* About Rousant */
-/* About Rousant */
-
-/* About Rousant */
-/* About Rousant */
-/* About Rousant */
-
-/* About Rousant */
-
 #tag-middle{
 color:  #9c9c9c;
 font-size: 2rem;
@@ -1408,14 +1232,11 @@ width: 90%;
   font-weight: 500;
 }
 
-
-
 .offer-right{
 width: 50%;
 display: -webkit-box;
 display: -ms-flexbox;
 display: flex;
-
 }
 
 .offer-right div{
@@ -1428,7 +1249,6 @@ display: flex;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-
 }
 
 .mobile-about {
@@ -1445,11 +1265,6 @@ display: flex;
 }
 
 /* About Media Queries */
-/* About Media Queries */
-/* About Media Queries */
-
-
-
 @media only screen and (max-width: 1400px){
 
   .about-heading-bottom a{
@@ -1462,9 +1277,7 @@ display: flex;
 
   .offer-row p{
     font-size: 2.3rem;
-
   }
-
 }
 
 @media only screen and (max-width: 1200px){
@@ -1475,11 +1288,7 @@ display: flex;
       display: -ms-flexbox;
       display: flex;
   }
-
 }
-
-
-
 
 @media only screen and (max-width: 1000px){
 
@@ -1492,14 +1301,12 @@ display: flex;
     width: 80%;
 
 }
-
 }
 
 @media only screen and (max-width: 700px){
 
   .firstslide {
     width: 80%;
-
 }
 
 .offer-row {
@@ -1579,22 +1386,7 @@ display: flex;
   }
 
 
-/* About Media Queries */
-/* About Media Queries */
-/* About Media Queries */
-
-
-
 /* Exprtise */
-/* Exprtise */
-/* Exprtise */
-/* Exprtise */
-/* Exprtise */
-/* Exprtise */
-/* Exprtise */
-/* Exprtise */
-/* Exprtise */
-
 #tag-exp{
   color: lightgrey;
   font-size: 2rem;
@@ -1626,8 +1418,6 @@ display: flex;
         justify-content: center;
 
 }
-
-
 
 .expertise-header{
 width: 60%;
@@ -1755,9 +1545,6 @@ width: 100%;
 
 
 /* Expertise Mobile */
-/* Expertise Mobile */
-/* Expertise Mobile */
-
 .mobile-expertise-tint{
   display: none;
   min-height: 100vh;
@@ -1777,38 +1564,24 @@ width: 100%;
     height: 250px;
 }
 
-/* Expertise Mobile */
-/* Expertise Mobile */
-/* Expertise Mobile */
-
 /* Expertise Media Queries */
-/* Expertise Media Queries */
-/* Expertise Media Queries */
-
 @media only screen and (max-width: 1400px){
 
   .expertise-heading h1{
     font-size: 4rem;
-
   }
-
 }
 
 @media only screen and (max-width: 1200px){
-
   .expertise-midrow .gap-outer {
       width: 22.5%;
   }
-
   .expertise-midrow .gap-inner {
     width: 15%;
 }
-
-
 }
 
 @media only screen and (max-width: 1000px){
-
   .expertise-tint{
     display: none;
   }
@@ -1905,30 +1678,11 @@ width: 100%;
 
 }
 
-
-
-/* Expertise Media Queries */
-/* Expertise Media Queries */
-/* Expertise Media Queries */
-
-
-
-
-
-/* COUNTDOWN TIMER */
-/* COUNTDOWN TIMER */
-/* COUNTDOWN TIMER */
-/* COUNTDOWN TIMER */
-/* COUNTDOWN TIMER */
-/* COUNTDOWN TIMER */
-
+/* Countdown Timer */
 .counter-container{
   min-height: 100vh;
   width: 100%;
-
-
 }
-
 
 #counter{
   display: -webkit-box;
@@ -1998,15 +1752,8 @@ width: 100%;
 
 }
 
-/* Counts Media Queries*/
-/* Counts Media Queries*/
-/* Counts Media Queries*/
-
-
-
+/* Countdown Timer Media Queries*/
 @media only screen and (max-width: 1300px){
-
-
   #counter div {
       font-size: 7rem;
           padding: 0 20px;
@@ -2014,8 +1761,6 @@ width: 100%;
 }
 
 @media only screen and (max-width: 1000px){
-
-
   .counter-container {
     min-height: 120vh;
 }
@@ -2063,18 +1808,6 @@ width: 100%;
 }
 }
 
-
-
-
-
-
-/* Counts Media Queries*/
-/* Counts Media Queries*/
-/* Counts Media Queries*/
-
-/* Footer */
-/* Footer */
-/* Footer */
 /* Footer */
 
 .top-footer-container{
@@ -2259,19 +1992,8 @@ font-family: 'Assistant';
           align-items: center;
 }
 
-
-/* Footer */
-/* Footer */
-/* Footer */
-/* Footer */
-
-
 /* Media Queries Footer */
-/* Media Queries Footer */
-/* Media Queries Footer */
-
 @media only screen and (max-width: 1200px){
-
   .top-footer{
     width: 100%;
     -ms-flex-pack: distribute;
@@ -2321,10 +2043,3 @@ font-size: 3rem;
     font-size: 2.2rem;
       }
 }
-
-
-
-
-/* Media Queries Footer */
-/* Media Queries Footer */
-/* Media Queries Footer */

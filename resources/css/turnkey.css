@@ -20,9 +20,6 @@ h1{
 }
 
 /* Loader */
-/* Loader */
-/* Loader */
-
 .cs-loader-wrapper{
 width: 100%;
 height: 100%;
@@ -138,17 +135,7 @@ z-index: 100;
   animation: lol 3s 500ms infinite ease-in-out;
 }
 
-
-/* Loader */
-/* Loader */
-/* Loader */
-/* Loader */
-
-
-
-
-/* Universal */
-
+/* Universal DOM Classes */
 .para-tint{
   width: 100%;
   height: 100vh;
@@ -185,8 +172,6 @@ height: 100vh;
 }
 
 /* Navigation */
-
-
 .navigation{
   width: 98%;
   display: -webkit-box;
@@ -281,11 +266,7 @@ font-weight: 300;
   padding: 5px;
 }
 
-
 /* Navigation mobile */
-/* Navigation mobile */
-/* Navigation mobile */
-
 .mobile-nav{
   width: 100%;
   position: fixed;
@@ -415,17 +396,7 @@ display: flex;
 
 }
 
-
-
-
-
-/* Navigation mobile */
-/* Navigation mobile */
-/* Navigation mobile */
-
 /* Navigation-Mobile Hovers */
-/* Navigation-Mobile Hovers */
-
 .menu-icon{
     padding:1px;
 margin: 1rem;
@@ -461,16 +432,7 @@ margin: 1rem;
           transform: rotateY(180deg)rotateZ(-45deg)translate(7px, -7px);
 }
 
-
-/* Navigation-Mobile Hovers */
-/* Navigation-Mobile Hovers */
-
 /* Navigation Hovers */
-/* Navigation Hovers */
-/* Navigation Hovers */
-
-
-
 .item:hover #decor {
   left: 0;  background-color: white;
 }
@@ -480,15 +442,7 @@ margin: 1rem;
   color: white;
 }
 
-/* Navigation Hovers */
-/* Navigation Hovers */
-/* Navigation Hovers */
-/* Navigation Hovers */
-
 /* Navigation MediaQ */
-/* Navigation MediaQ */
-/* Navigation MediaQ */
-
 @media only screen and (max-width: 1550px){
   .nav-content{
 width: 90%;
@@ -540,27 +494,7 @@ width: 90%;
   }
        }
 
-
-
-
-
-
-
-
-/* Navigation MediaQ */
-/* Navigation MediaQ */
-/* Navigation MediaQ */
-
-
 /* Popnav */
-/* Popnav */
-/* Popnav */
-/* Popnav */
-/* Popnav */
-/* Popnav */
-/* Popnav */
-/* Popnav */
-
 .popnav{
   width: 100%;
   background-color: white;
@@ -612,18 +546,7 @@ margin-bottom: 1rem;
   padding: 5px;
 }
 
-
-
 /* Banner */
-/* Banner */
-/* Banner */
-/* Banner */
-/* Banner */
-/* Banner */
-/* Banner */
-/* Banner */
-
-
 .banner{
   min-height: 100vh;
   width: 100%;
@@ -751,12 +674,7 @@ border: 1px solid lightgrey;
   border: 1px solid #86adbd;
 }
 
-
-
 /* Banner Media Queries*/
-/* Banner Media Queries*/
-/* Banner Media Queries*/
-
 @media only screen and (max-width: 1400px){
 
   #africa{
@@ -862,28 +780,7 @@ font-size: 5rem;
 }
   }
 
-
-
-
-/* Banner Media Queries*/
-/* Banner Media Queries*/
-/* Banner Media Queries*/
-
-
-
 /* Offerings */
-/* Offerings */
-/* Offerings */
-/* Offerings */
-/* Offerings */
-/* Offerings */
-/* Offerings */
-/* Offerings */
-/* Offerings */
-
-
-
-
 .para-tint-offerings{
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1062,27 +959,7 @@ padding: 0 5px;
 
 }
 
-/* Media Queries Offerings */
-/* Media Queries Offerings */
-/* Media Queries Offerings */
-
-
 /* Projects */
-/* Projects */
-/* Projects */
-/* Projects */
-/* Projects */
-/* Projects */
-/* Projects */
-/* Projects */
-/* Projects */
-/* Projects */
-/* Projects */
-
-
-
-
-
 .para-tint-projects{
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1180,12 +1057,7 @@ display: flex;
   color: #f9a943;
 }
 
-
 /* Completed Contracts Media Queries */
-/* Completed Contracts Media Queries */
-/* Completed Contracts Media Queries */
-
-
 @media only screen and (max-width: 1600px){
 
   .thirdslide{
@@ -1242,20 +1114,7 @@ display: flex;
 }
 
 
-
-
-
-
-
-/* Completed Contracts Media Queries */
-/* Completed Contracts Media Queries */
-/* Completed Contracts Media Queries */
-
-
 /* Completed Contracts */
-/* Completed Contracts */
-/* Completed Contracts */
-
 .para-tint-complete{
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1368,18 +1227,7 @@ display: flex;
   margin-left: -27px;
 }
 
-
-
-
-
-/* Completed Contracts */
-/* Completed Contracts */
-
-
 /* Completed Contracts Media Queries */
-/* Completed Contracts Media Queries */
-/* Completed Contracts Media Queries */
-
 @media only screen and (max-width: 1500px){
   .complete-left {
       margin-right: 2rem;
@@ -1447,22 +1295,7 @@ background-position: center;
 }
 }
 
-
-
-
-
-
-/* Completed Contracts Media Queries */
-/* Completed Contracts Media Queries */
-/* Completed Contracts Media Queries */
-
-
-
 /* Completed Contracts Media */
-/* Completed Contracts Media */
-/* Completed Contracts Media */
-
-
 .complete-right-img{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1511,15 +1344,7 @@ display: flex;
   background-repeat: no-repeat;
 }
 
-/* Completed Contracts Media */
-/* Completed Contracts Media */
-/* Completed Contracts Media */
-
 /* Footer */
-/* Footer */
-/* Footer */
-/* Footer */
-
 .top-footer-container{
   width: 100%;
 min-height: 60vh;
@@ -1702,17 +1527,6 @@ font-family: 'Assistant';
           align-items: center;
 }
 
-
-
-
-/* Footer */
-/* Footer */
-/* Footer */
-/* Footer */
-
-
-/* Media Queries Footer */
-/* Media Queries Footer */
 /* Media Queries Footer */
 
 @media only screen and (max-width: 1200px){
@@ -1775,10 +1589,3 @@ background-position: center;
     font-size: 2.2rem;
       }
 }
-
-
-
-
-/* Media Queries Footer */
-/* Media Queries Footer */
-/* Media Queries Footer */

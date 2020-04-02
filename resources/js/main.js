@@ -1,51 +1,40 @@
 $(document).ready(function () {
 
+  
   window.counterTop = document.getElementsByClassName('expertise-divider')[0].offsetTop;
   window.counterStarted = false;
   window.firstScrollEventHappened = false;
 
+/* Scroll Functions */
   $(window).scroll(function () {
-
     if (window.firstScrollEventHappened == true) {
-
+      /* trigger navbar animations */
       if ($(document).scrollTop() > 5) {
         $('.navigation').addClass('popnav');
       }
       else {
         $('.navigation').removeClass('popnav');
       }
-
+      /* trigger counter function */
       if ($(window).scrollTop() > window.counterTop) {
         setupCounter();
       }
-
     }
-
     if (window.firstScrollEventHappened == false) {
       window.firstScrollEventHappened = true;
     }
   });
 
-  $('.value').each(function () {
-    $(this).prop('Counter', 0).animate({
-      Counter: $(this).text()
-    }, {
-        duration: 4000,
-        easing: 'swing',
-        step: function (now) {
-          $(this).text(Math.ceil(now));
-        }
-      });
-  });
 
+  /* Counter Function - refresh bug fix */
   if ($(window).scrollTop() > window.counterTop) {
     setupCounter();
   };
-
 }
-
 );
 
+
+/* Counter Function - index.html */
 function setupCounter() {
   if(window.counterStarted == false){
 
@@ -62,7 +51,6 @@ function setupCounter() {
         },
 
           {
-
             duration: 2000,
             easing: 'swing',
             step: function () {
