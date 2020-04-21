@@ -45,7 +45,7 @@ h1{
     letter-spacing: 4px;
     font-weight: 300;
     padding-bottom: 3rem;
-    color: #ad834b;
+    color: hsl(34, 40%, 49%);
   }
   
   .cs-loader-inner {
@@ -55,7 +55,7 @@ h1{
     top: 50%;
     position: absolute;
     width: 100%;
-    color: #ad834b;
+    color: hsl(34, 40%, 49%);
     text-align: center;
   }
   
@@ -142,7 +142,7 @@ h1{
 .para-tint{
   width: 100%;
   height: 100vh;
-  background-color: #0000006b;
+  background-color: hsla(0, 0%, 0%, 0.42);
 }
 
 .parallax{
@@ -158,7 +158,7 @@ h1{
 .para-tint-top{
   min-height: 100vh;
  width: 100%;
- background-color: #0000006b;
+ background-color: hsla(0, 0%, 0%, 0.42);
 }
 
 .parallax-second{
@@ -306,7 +306,7 @@ font-weight: 300;
 
 .mobile-nav p{
   font-size: 4rem;
-  color: #fdc479;
+  color: hsl(34, 97%, 73%);
   -webkit-transition: 500ms;
   -o-transition: 500ms;
   transition: 500ms;
@@ -519,7 +519,7 @@ z-index: 30;
 }
 
 .popnav .menu .item a{
-  color: #9e9e9e;
+  color: hsl(0, 0%, 62%);
   -webkit-transition: 1000ms;
   -o-transition: 1000ms;
   transition: 1000ms;
@@ -594,7 +594,7 @@ margin-bottom: 1rem;
 .banner h1{
   font-size: 7rem;
   letter-spacing: 5px;
-  color: #ffe6e7;
+  color: hsl(358, 100%, 95%);
   font-family: 'Montserrat';
 }
 
@@ -609,7 +609,7 @@ margin-bottom: 1rem;
 
 
 .banner p{
-  color: #f3f3f3;
+  color: hsl(0, 0%, 95%);
   font-size: 3rem;
     text-align: center;
             text-shadow: 1px 1px #585757;
@@ -618,7 +618,7 @@ margin-bottom: 1rem;
 
 
 #africa{
-  color: #f7a63b;
+  color: hsl(34, 92%, 60%);
   margin: 0 2rem;
   font-size: 8rem;
     font-weight: 300;
@@ -662,8 +662,8 @@ border: 1px solid lightgrey;
   transition: 500ms;
   font-family: "Montserrat";
   font-weight: 300;
-  background-color: #d6a766c7;
-  border: 1px solid #d6a766c7;
+  background-color: hsla(35, 58%, 62%, 0.78);
+  border: 1px solid hsla(35, 58%, 62%, 0.78);
   margin: 1rem;
       width: 200px;
  
@@ -678,8 +678,8 @@ border: 1px solid lightgrey;
 }
 
 #right-button:hover{
-  background-color: #86adbd;
-  border: 1px solid #86adbd;
+  background-color: hsl(197, 29%, 63%);
+  border: 1px solid hsl(197, 29%, 63%);
   width: 195px;
      
 }
@@ -782,7 +782,7 @@ width: 170px;
 /* Product Container*/
 .product-container{
   width: 100%;
-background-color: #fafafae6;
+background-color: hsla(0, 0%, 98%, 0.902);
 min-height: 110vh;
 padding-bottom: 10rem;
 }
@@ -813,14 +813,14 @@ padding-top: 140px;
 }
 
 .tag{
-  color:#9c9c9c;
+  color:hsl(0, 0%, 61%);
   width: 90%;
   font-size: 2rem;
 }
 
 .product-heading{
   width: 90%;
-    border-left: 5px solid #f9a940;
+    border-left: 5px solid hsl(34, 94%, 61%);
 
 }
 
@@ -876,7 +876,7 @@ padding: 1rem 2rem;
   }
 
 .product-menu p{
-color: #2e3f46;
+color: hsl(198, 21%, 23%);
 font-family: 'Assistant';
 font-weight: normal;
 font-size: 2.5rem;
@@ -889,7 +889,7 @@ font-size: 2.5rem;
 
 
 .product-menu div :hover{
-  color: #f9a940;
+  color: hsl(34, 94%, 61%);
 }
 
 
@@ -911,7 +911,7 @@ font-size: 2.5rem;
 /* Product Hover Effect*/
 .hovereffect-top{
   height: 2px;
-  background-color: #f9a940;
+  background-color: hsl(34, 94%, 61%);
   width: 100%;
   position: absolute;
   top: 0;
@@ -923,7 +923,7 @@ right: -130%;
 
 .hovereffect-bottom{
   height: 2px;
-  background-color: #f9a940;
+  background-color: hsl(34, 94%, 61%);
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -1029,7 +1029,7 @@ right: -130%;
 }
 
 .intro-tint{
-  background: #00000033;
+  background: hsla(0, 0%, 0%, 0.2);
   width: 100%;
   height: 100%; 
   -webkit-transition: 600ms; 
@@ -1052,7 +1052,7 @@ right: -130%;
 } 
 
 .intro-tint:hover {
-  background: #00000080;
+  background: hsla(0, 0%, 0%, 0.502);
 }
 
 .intro-cont:hover a {
@@ -1193,7 +1193,7 @@ background-position: center;
 
 .content h1 {
   font-family: 'Montserrat';
-  color: #525871;
+  color: hsl(228, 16%, 38%);
   font-weight: 300;
   letter-spacing: 4px;
 
@@ -1201,12 +1201,12 @@ background-position: center;
 .content h3{
   font-family: 'Montserrat';
   font-weight: 300;
-  color: #818bad;
+  color: hsl(226, 21%, 59%);
 }
 
 .content li{
   font-size: 1.7rem;
-  color: #525050;
+  color: hsl(0, 1%, 32%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1219,7 +1219,7 @@ background-position: center;
 .content h4{
 letter-spacing: 3px;
   padding: 1rem 0 0 0;
-  color:#757c96;
+  color:hsl(227, 14%, 52%);
   font-weight: 300;
   font-family: "Montserrat";
 }
@@ -1327,13 +1327,13 @@ display: none;
 
 .mobile-products .product-header-container{
   padding-bottom: 10rem;
-  background-color: #fafafae6;
+  background-color: hsla(0, 0%, 98%, 0.902);
   
 }
 
 .mobile-product-heading {
   width: 90%;
-  border-left: 5px solid #f9a940;
+  border-left: 5px solid hsl(34, 94%, 61%);
   margin: 0 auto;
 
 }
@@ -1354,7 +1354,7 @@ padding-left: 1rem;
 
 .mobile-product h2 {
   font-family: 'Montserrat';
-  color: #525871;
+  color: hsl(228, 16%, 38%);
   font-weight: 300;
   letter-spacing: 3px;
   text-align: center;
@@ -1364,12 +1364,12 @@ padding-left: 1rem;
 .mobile-product h3{
   font-family: 'Montserrat';
   font-weight: 300;
-  color: #818bad;
+  color: hsl(226, 21%, 59%);
 }
 
 .mobile-product li{
   font-size: 1.7rem;
-  color: #353232;
+  color: hsl(0, 3%, 20%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1382,7 +1382,7 @@ padding-left: 1rem;
 .mobile-product h4{
 letter-spacing: 3px;
   padding: 1rem 0 0 0;
-  color:#757c96;
+  color:hsl(227, 14%, 52%);
   font-weight: 300;
   font-family: "Montserrat";
 }
@@ -1404,11 +1404,11 @@ letter-spacing: 3px;
 
 .mobile-img a{
   text-decoration: none;
-    color: #c5e4e4;
+    color: hsl(180, 36%, 83%);
     font-size: 3.2rem;
       border-radius: 10px;
         padding: 5px 10px;
-        border: 1px solid #c5e4e4;
+        border: 1px solid hsl(180, 36%, 83%);
 }
 
 .mobile-img a:hover{
@@ -1418,7 +1418,7 @@ letter-spacing: 3px;
 }
 
 .mobile-image-tint{
-  background: #00000066;
+  background: hsla(0, 0%, 0%, 0.4);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1513,7 +1513,7 @@ min-height: 60vh;
 }
 
 .top-footer-tint{
-  background-color: #292929bd;
+  background-color: hsla(0, 0%, 16%, 0.741);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1657,7 +1657,7 @@ color: lightgrey;
 .bottom-copywright{
   height: 90px;
   width: 100%;
-  background-color: #171717;
+  background-color: hsl(0, 0%, 9%);
   color: white;
   text-align: center;
 font-size: 2rem;
