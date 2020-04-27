@@ -43,7 +43,7 @@ z-index: 100;
   letter-spacing: 4px;
   font-weight: 300;
   padding-bottom: 3rem;
-  color: hsl(34, 40%, 49%);
+  color: #ad834b;
 }
 
 .cs-loader-inner {
@@ -51,7 +51,7 @@ z-index: 100;
   top: 50%;
   position: absolute;
   width: 100%;
-  color: hsl(34, 40%, 49%);
+  color: #ad834b;
   text-align: center;
 }
 
@@ -134,7 +134,7 @@ z-index: 100;
 .para-tint{
   width: 100%;
   height: 100vh;
-  background-color: hsla(0, 0%, 0%, 0.42);
+  background-color: #0000006b;
 }
 
 .parallax{
@@ -150,7 +150,7 @@ z-index: 100;
 .para-tint-top{
   min-height: 100vh;
  width: 100%;
- background-color: hsla(0, 0%, 0%, 0.42);
+ background-color: #0000006b;
 }
 
 .parallax-second{
@@ -264,7 +264,7 @@ font-weight: 300;
 
 .mobile-nav p{
   font-size: 4rem;
-  color: hsl(34, 97%, 73%);
+  color: #fdc479;
   transition: 500ms;
   z-index: 21;
 }
@@ -437,7 +437,7 @@ z-index: 30;
 }
 
 .popnav .menu .item a{
-  color: hsl(0, 0%, 62%);
+  color: #9e9e9e;
   transition: 1000ms;
 }
 
@@ -472,7 +472,7 @@ margin-bottom: 1rem;
   justify-content: center;
   align-items: center;
   padding-left: 2rem;
-      background: hsla(0, 0%, 0%, 0.188);
+      background: #00000030;
 }
 
 .africa{
@@ -487,7 +487,7 @@ margin-bottom: 1rem;
 .banner h1{
   font-size: 7rem;
   letter-spacing: 5px;
-  color: hsl(358, 100%, 95%);
+  color: #ffe6e7;
   font-family: 'Montserrat';
 }
 
@@ -497,24 +497,24 @@ margin-bottom: 1rem;
   color:white;
   font-family: 'Montserrat';
     font-weight: 300;
-    text-shadow: 2px 2px hsl(0, 0%, 2%);
+    text-shadow: 2px 2px #040404;
 }
 
 
 .banner p{
-  color: hsl(0, 0%, 95%);
+  color: #f3f3f3;
   font-size: 3rem;
     text-align: center;
-            text-shadow: 1px 1px hsl(0, 1%, 34%);
+            text-shadow: 1px 1px #585757;
 }
 
 
 #africa{
-  color: hsl(34, 92%, 60%);
+  color: #f7a63b;
   margin: 0 2rem;
   font-size: 8rem;
     font-weight: 300;
-    text-shadow: 2px 2px hsl(35, 20%, 30%);
+    text-shadow: 2px 2px #5d503e;
 }
 
 .banner .africa{
@@ -541,8 +541,8 @@ border: 1px solid lightgrey;
   transition: 500ms;
   font-family: "Montserrat";
   font-weight: 300;
-  background-color: hsla(35, 58%, 62%, 0.78);
-  border: 1px solid hsla(35, 58%, 62%, 0.78);
+  background-color: #d6a766c7;
+  border: 1px solid #d6a766c7;
   margin: 1rem;
       width: 200px;
 }
@@ -554,8 +554,8 @@ border: 1px solid lightgrey;
 }
 
 #right-button:hover{
-  background-color: hsl(197, 29%, 63%);
-  border: 1px solid hsl(197, 29%, 63%);
+  background-color: #86adbd;
+  border: 1px solid #86adbd;
   width: 195px;   
 }
 
@@ -655,12 +655,12 @@ width: 170px;
 
 /* Contract Catalogue*/
 #contact{
-  background: hsla(0, 0%, 98%, 0.902);
+  background: #fafafae6;
 }
 
 .contract-container{
 width: 100%;
-background: hsla(0, 0%, 98%, 0.902);
+background: #fafafae6;
 min-height: 100vh;
 background-repeat: no-repeat;
 background-size: cover;
@@ -681,14 +681,14 @@ padding-top: 140px;
 }
 
 .tag{
-color: hsl(0, 0%, 61%);
+color: #9c9c9c;
 width: 90%;
 font-size: 2rem;
 }
 
 .contract-heading{
 width: 90%;
-  border-left: 5px solid hsl(34, 94%, 61%);
+  border-left: 5px solid #f9a940;
 }
 
 .contract-heading h1{
@@ -726,7 +726,7 @@ overflow: hidden;
 }
 
 .contract-menu a{
-color: hsl(0, 0%, 50%);
+color: #808080;
 font-family: 'Assistant';
 font-weight: normal;
 font-size: 2.5rem;
@@ -741,7 +741,7 @@ padding: 1px;
 
 .contract-menu a:hover {
 text-decoration: none;
-color: hsl(34, 94%, 61%);
+color: #f9a940;
 }
 
 .contract-display{
@@ -752,7 +752,7 @@ padding-bottom: 15rem;
 /* Product Hover Effect*/
 .hovereffect-bottom{
 height: 2px;
-background-color: hsl(34, 94%, 61%);
+background-color: #f9a940;
 width: 100%;
 position: absolute;
 bottom: -50px;
@@ -773,7 +773,7 @@ bottom: 0;
 
 /* Contract-Display */
 .top-tray{
-background-color: hsl(203, 20%, 52%);
+background-color: #6d8b9e;
 }
 
 .top-tray th{
@@ -845,7 +845,7 @@ min-height: 60vh;
 }
 
 .top-footer-tint{
-  background-color: hsla(0, 0%, 16%, 0.741);
+  background-color: #292929bd;
   display: flex;
 align-items: center;
 min-height: 60vh;
@@ -952,7 +952,7 @@ color: lightgrey;
 .bottom-copywright{
   height: 90px;
   width: 100%;
-  background-color: hsl(0, 0%, 9%);
+  background-color: #171717;
   color: white;
   text-align: center;
 font-size: 2rem;
