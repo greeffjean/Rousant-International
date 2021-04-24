@@ -261,9 +261,10 @@ font-weight: 300;
 }
 
 .logo img{
-  width: 160px;
-  height: 90px;
+  width: 110px;
+  height: 84px;
   padding: 5px;
+  margin: 10px;
 }
 
 /* Navigation mobile */
@@ -541,9 +542,10 @@ margin-bottom: 1rem;
 }
 
 .popnav .logo img{
-  width: 170px;
-  height: 90px;
+  width: 110px;
+  height: 84px;
   padding: 5px;
+  margin: 10px;
 }
 
 /* Banner */

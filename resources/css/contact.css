@@ -266,9 +266,10 @@ font-weight: 300;
 }
 
 .logo img{
-  width: 160px;
-  height: 90px;
+  width: 110px;
+  height: 84px;
   padding: 5px;
+  margin: 10px;
 }
 
 
@@ -546,9 +547,10 @@ margin-bottom: 1rem;
 }
 
 .popnav .logo img{
-  width: 170px;
-  height: 90px;
+  width: 110px;
+  height: 84px;
   padding: 5px;
+  margin: 10px;
 }
 
 /* Banner */
@@ -803,6 +805,7 @@ display: none;
         -ms-flex-pack: center;
             justify-content: center;
     padding-bottom: 27rem;
+    border-bottom: 5px solid #e4e7ea;
 }
 
 .contact-block-left{
@@ -1136,9 +1139,9 @@ transition: .4s;
   }
   
   .country-catalogue img{
-    width: 50px;
-    height:50px;
-    border-radius: 150px;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
     margin: 1rem 2rem;
     -webkit-transition: 600ms;
     -o-transition: 600ms;
@@ -1192,7 +1195,7 @@ transition: .4s;
   
   .rep-box div img{
     width: 100%;
-    height: 250px;
+    height: 200px;
     margin: 0 auto;
   }
   

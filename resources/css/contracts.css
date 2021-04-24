@@ -227,9 +227,10 @@ font-weight: 300;
 }
 
 .logo img{
-  width: 160px;
-  height: 90px;
+  width: 110px;
+  height: 84px;
   padding: 5px;
+  margin: 10px;
 }
 
 
@@ -456,9 +457,10 @@ margin-bottom: 1rem;
 }
 
 .popnav .logo img{
-  width: 170px;
-  height: 90px;
-  padding: 5px;
+  width: 110px;
+    height: 84px;
+    padding: 5px;
+    margin: 10px;
 }
 
 /* Banner */
@@ -785,36 +787,8 @@ color: white;
 
 /* Contract-Display */
 
-.d2017{
-width: 100%;
-}
-.d2016{
-display: none;
-width: 100%;
-}
-.d2015{
-display: none;
-width: 100%;
-}
-.d2014{
-display: none;
-width: 100%;
-}
-.d2013{
-display: none;
-width: 100%;
-}
-.d2012{
-display: none;
-width: 100%;
-}
-.d2011{
-display: none;
-width: 100%;
-}
-.d2010{
-display: none;
-width: 100%;
+.year-selector.active {
+  color: #f9a940;;
 }
 
 

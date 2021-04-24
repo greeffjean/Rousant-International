@@ -545,9 +545,10 @@ margin-bottom: 1rem;
 }
 
 .popnav .logo img{
-  width: 170px;
-  height: 90px;
-  padding: 5px;
+  width: 110px;
+    height: 84px;
+    padding: 5px;
+    margin: 10px;
 }
 
 /* Banner */
